@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "yarn install --ignore-engines",
   "buildCommand": "yarn --ignore-engines --cwd packages/website build",
   "outputDirectory": "packages/website/build",
   "rewrites": [
@@ -9,4 +10,3 @@
     }
   ]
 }
-

@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "yarn install --ignore-engines",
   "buildCommand": "npx rsbuild build",
   "outputDirectory": "build",
   "rewrites": [
@@ -9,4 +10,3 @@
     }
   ]
 }
-
